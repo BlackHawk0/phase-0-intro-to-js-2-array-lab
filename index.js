@@ -3,26 +3,22 @@ const cats = ["Milo", "Otis", "Garfield"];
 
 // dstructive appends a cat to the end of the cats array
 function destructivelyAppendCat(name) {
-  cats.push(name);
-  return cats;
+  return cats.push(name); 
 }
 
 // destructively prepends a cat to the beginning of the cats array
 function destructivelyPrependCat(name) {
-  cats.unshift(name);
-  return cats;
+  return cats.unshift(name);
 }
 
 // destructively removes the last cat from the cats array
 function destructivelyRemoveLastCat() {
-  cats.pop();
-  return cats;
+  return cats.pop();
 }
 
 // destructively removes the first cat from the cats array
 function destructivelyRemoveFirstCat() {
-  cats.shift();
-  return cats;
+  return cats.shift();
 }
 
 // appends a cat to the cats array and returns a new array, leaving the cats array unchanged
